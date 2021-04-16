@@ -1,0 +1,88 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+ul#Nav > a > div.buttontype > li {
+	padding: 5px;
+	font-family: 'Acme', sans-serif;
+	background-color: cyan;
+	text-indent: none;
+	text-decoration: none;
+}
+
+ul#Nav {
+	list-style-type: none;
+}
+
+div.buttontype {
+	display:block;
+}
+
+/*General Stuff*/
+body {
+	background-image: url("Images/paper.jpg");
+	min-width: 90%;
+	min-height: 90%;
+	background-color: beige;
+}
+
+article > h1, article > h2, article > h3 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+
+div.Selector > a {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 200%;
+	padding: 20px;
+	border-radius: 25px;
+	float: left;
+	min-width:800px;
+	min-height:400px;
+	max-width:1000px;
+	max-height:600px;
+}
+
+/*Form Stuff*/
+form {
+	text-align: center;
+}
+label {
+	font-family: 'Acme', sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+label.check {
+	font-size: 100%;
+	font-style: italic;
+	font-weight: none;
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+input[type=file] {
+	margin-right:15%;
+	padding: 10px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+	width:50%;
+	height:5%;
+}
+
+main {
+	background-image: url("Images/silver.jpg");
+}
+input[type=submit].regForm{
+	display: block;
+	cursor: pointer;
+	padding: 30px;
+	background-image: url("Images/silver.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lexend Giga', sans-serif;
+	border-radius: 25px;
+}
